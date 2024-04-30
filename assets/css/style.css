@@ -21,7 +21,6 @@
 .topbar h1
 {
     color: #097d4c;
-    direction: ltr;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 120px;
@@ -192,3 +191,61 @@ img.sada_tara
 
 
 
+
+    /* Media query for mobile devices */
+
+
+    
+    @media screen and (max-width: 768px) {
+        .socail_section 
+        {
+          text-align: center;
+        }
+        .topbar h1
+        {
+            font-size: 60px;
+        }
+        .about h1 
+        {
+            font-size: 60px;
+            margin-bottom: 50px;
+        }
+        .about p 
+        {
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
+        img.editor {
+            width: 65%;
+            height: 500px;    
+            margin-left: 85px;
+        }
+        .sada_pata
+        {
+            display: none;
+        }
+        iframe.mt-5 
+        {
+            width: 500px;
+            height: 300px;
+        }
+        .stuff h1 
+        {
+            font-size: 60px;
+        }
+        .port_video img 
+        {
+            width: 6%;
+        }
+        .port_video img:first-child {
+            display: none;
+        }
+
+
+
+
+
+
+
+
+}
